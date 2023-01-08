@@ -26,6 +26,17 @@ main {
     padding: 20px;
 }
 
+div.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.child {
+    width: 49%;
+}
+
 article {
     margin: 20px 0px;
     padding: 10px 20px 20px 20px;
@@ -122,11 +133,4 @@ main ul {
         color: #edcb0cfb; 
     }
 
-div.container {
-    display: flex;
-    justify-content: space-between;
-}
 
-.child {
-    width: 49%;
-}
